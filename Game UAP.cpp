@@ -45,6 +45,7 @@ int main() {
 
     while (!objek1.ApakahFinish() && !objek2.ApakahFinish()) {
         TungguSpasi();
+        
         int hasil_lempar_objek1 = LemparDadu();
         cout << "Hasil lemparan dadu objek 1: " << hasil_lempar_objek1 << endl;
         objek1.Gerak(hasil_lempar_objek1);
